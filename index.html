@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Drawflow | Simple Flow program libray</title>
+        <meta
+            name="description"
+            content="Simple library for flow programming. Drawflow allows you to create data flows easily and quickly."
+        />
+    </head>
+    <body>
+        <script src="drawflow.min.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/gh/jerosoler/Drawflow/dist/drawflow.min.js"></script> -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+            integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs="
+            crossorigin="anonymous"
+        ></script>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/jerosoler/Drawflow/dist/drawflow.min.css"
+        />
+        <link rel="stylesheet" type="text/css" href="beautiful.css" />
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+
+        <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+        
+        <!-- UUID -->
+        <script src="https://unpkg.com/uuid@latest/dist/umd/uuidv4.min.js"></script>
+
+        <!-- D3 -->
+        <script src="lib/d3/d3.v5.min.js" type="text/javascript"></script>
+        <script src="DashboardCreator.js" type="text/javascript"></script>
+       <!-- Bar Chart -->
+        <script src="./BarChart.js" type="text/javascript"></script>
+        
+        <script type="text/javascript">
+            window.onload = function () {
+                DashboardCreater(document.body);
+            };
+        </script>
+    </body>
+</html>
